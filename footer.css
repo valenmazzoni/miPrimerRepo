@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.contenedorPadre{
+    background-color: #2F3645;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "start mid mid2 end";
+    gap:30px;
+}
+
+img{
+ width: 150px;
+grid-area:start;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.titulo1{
+  grid-area: mid;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: white;
+  font-style:normal;
+}
+
+.titulo2{
+  grid-area: end;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 60;
+  color: white;
+  font-style:normal;
+}
+
+
+  
