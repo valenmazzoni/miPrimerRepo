@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.headerImage{
+ width: 100%;
+ position: fixed;
+}
+
+nav{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding:20px 20px 20px 0px;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-flex;
+    gap: 30px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: larger;
+    text-shadow: 2px 2px 0px #070707;
+}
+
+/*EN ESTE ESPACIO VA EL ICONO*/
+
+.mainTitle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 70px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: xx-large;
+    text-shadow: 2px 2px 0px #070707;
+}
+.mainContent{
+    position: relative;
+}
