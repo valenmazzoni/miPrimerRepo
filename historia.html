@@ -72,10 +72,14 @@
    
   <section class="seccion2">
     <h2 class="tituloVideo">HABLEMOS UN POQUITO MAS...</h2>
-    <video src="./assets/videos/historia-Comp.mp4">
-      <!--source src="./assets/videos/historia-Comp.mp4" type="video/mp4"/>
-      <source src="./assets/videos/historia-Comp.ogv" type="video/ogv"/-->
-    </video>
+    <div class="video-container">
+      <video id="miVideo" src="assets/videos/historia-Comp.mp4"></video>
+     <!-- <div class="controles">
+          <button id="playPause">Reproducir</button>
+          <input type="range" id="barraProgreso" min="0" value="0" step="0.1">
+      </div>-->
+  </div>
+  
   </section>
  </main>
  <footer>
@@ -83,5 +87,6 @@
   <spam class="titulo1" class="mismasPropiedades"> PROGRAMACION E HISTORIA</spam>
   <span class="titulo2" class="mismasPropiedades"> Sitio con fines educativos- Creado por M. Victoria Lopez</span>
 </footer> 
+<script src="./historia.js"></script>
 </body>
 </html>

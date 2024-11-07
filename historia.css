@@ -131,6 +131,27 @@ seccion2{
     justify-content: center;
 }
 
+.video-container{
+    width: 800px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+video{
+    margin-top: 60px;
+}
+.controles {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#barraProgreso {
+    width: 100%;
+}
+
 /*FOOTER*/
 
 footer{

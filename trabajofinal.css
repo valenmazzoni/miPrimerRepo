@@ -16,12 +16,17 @@ header{
 }
 
 nav{
+    position: fixed;
+    left:1250px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
     padding:40px 20px 20px 0px;
 }
 
+nav.sticky{
+    color:white;
+}
 ul{
     list-style-type: none;
     display: inline-flex;
@@ -31,7 +36,7 @@ ul{
     font-size: larger;
     text-shadow:
      1px 1px  white,
-     2px 3px  gray;
+     4px 4px 0px #080808;;
 }
 
 a{

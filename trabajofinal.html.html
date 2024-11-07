@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-       <nav>
+       <nav id="navegador">
             <ul>
                 <li><a class="menu" href="./historia.html">HISTORIA</a></li>
                 <li><a class="menu" href="./juguemos.html">JUGUEMOS</a></li>
@@ -20,17 +20,20 @@
         <h1 class="mainTitle">PROGRAMACION E HISTORIA</h1>
     </header>
     <main class="mainContent">
+        <noscript>
+            <p>La pagina que esta viendo requiere el uso de JavaScript para su mejor funcionamineto. En caso de haberlo deshabilitado, porfavor vuelva a activarlo.</p>
+        </noscript>
         <h2>CONTENIDO</h2>
      <section class="contenidoPrincipal">
       <article>
         <img class="imgart1" src="./assets/imagenes/drive-download-20240927T191843Z-001/historia-programacion.jpg" alt="imagen de un teclado y monitor antiguos">
         <p class="text">Conozcamos un poco sobre la historia de la programacion</p>
-        <button>IR A LA HISTORIA</button>
+        <button id="botonHistoria">IR A LA HISTORIA</button>
       </article>
        <article>
         <img class="imgart2" src="./assets/imagenes/drive-download-20240927T191843Z-001/img2.jpg" alt="imagen de una persona trabajando en una laptop">
         <p class="text">Vamos a jugar un poco utilizando metodos aprendidos en clase</p>
-        <button>IR AL JUEGO</button>
+        <button id="botonJuego">IR AL JUEGO</button>
        </article>
      </section>
       
@@ -41,5 +44,6 @@
         <spam class="titulo1" class="mismasPropiedades"> PROGRAMACION E HISTORIA</spam>
         <span class="titulo2" class="mismasPropiedades"> Sitio con fines educativos- Creado por M. Victoria Lopez</span>
      </footer> 
+     <script src="trabajofinal.js"></script>
 </body>
 </html>
