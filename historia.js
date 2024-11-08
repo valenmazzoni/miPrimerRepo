@@ -1,5 +1,5 @@
 
-/*const video = document.getElementById("miVideo");
+const video = document.getElementById("miVideo");
 const playPauseBtn = document.getElementById("playPause");
 const barraProgreso = document.getElementById("barraProgreso");
 
@@ -19,14 +19,6 @@ playPauseBtn.addEventListener("click", function() {
 
 barraProgreso.addEventListener("input", function() {
     video.currentTime = (barraProgreso.value / 100) * video.duration;
-})*/
+})
 
-let video= document.getElementById('miVideo')
 
-const reproducir= ()=>{
-    video.play()
-}
-
-const pausar= ()=>{
-    video.onpause()
-}
